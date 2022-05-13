@@ -1,3 +1,3 @@
 # Resume-site
 
-https://harryhatherton.github.io/Resume-vebsite/
+https://harryhatherton.github.io/Resume-site/
