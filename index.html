@@ -7,36 +7,203 @@
     <title>Resume-site</title>
 </head>
 <body>
+    <!-- <table cellspacing="30" - атрибут отступа между столбцами в таблице> -->
+    <table cellspacing="30">
+        <tr>
+            <td>
+                <!-- <img - картинка. width="150" - размер. src="Avatar.jpg" - ссылка на загруженную картинку. 
+                alt="img" - покажет то что будет при ошибке загрузки картинки.> -->
+                <img width="150" src="Avatar.jpg" alt="img">
+            </td>
+            <td>
+    <!-- <h1>Игорь Цыганков</h1> - Главынй заголовок -->
     <h1>Игорь Цыганков</h1>
-    <img width="150" src="Avatar.jpg" alt="img">
-    <hr color="green"; noshade; size="7" />
+    <!-- <p> - Абзац. <em> - Курсив. Работаю <strong> - Жирный шрифт. на этот мир</strong></em></p> -->
     <p><em> Работаю <strong>на этот мир</strong></em></p>
     <p>Занимаюсь внутренней отделкой квартиры</p>
+            </td>  
+        </tr>
+    </table>
 
-    <hr noshade="1" />
+        <!-- <hr - Линия Horizontal rule. color="green"; - Цвет линии. noshade; - Тень. size="7" - Размер. /> -->
+        <hr color="green"; noshade; size="7" />
 
     <h2>Мои социальные сети</h2>
+
+    <!-- <ul - список безномерной unordered list. type="square" - тип квадратики.></ul> -->
     <ul type="square">
+
+        <!-- <li - список.><a - ссылка. target="_blank" - перейти на новую вкладку.
+              href="https://www.youtube.com/channel/UClkgEkRRql6tqMiydzocVyg" - путь.>Youtube - текст нажатия.</a></li> -->
         <li><a target="_blank" href="https://www.youtube.com/channel/UClkgEkRRql6tqMiydzocVyg">Youtube</a></li>
         <br>
         <li><a target="_blank" href="https://vk.com/id129302157">Вконтакте</a></li>
         <br>
+
+        <!-- <li><a href="https://de..."><img src="https://mdn.mozillademo..." - Картинака нажатия. alt="MDN logo"></a></li> -->
         <li><a href="https://developer.mozilla.org"><img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" alt="MDN logo"></a></li>
         <!-- <li>123</li> -->
     </ul>
 
-    <hr noshade="1" />
+        <hr noshade="1" />
 
     <h2>Мои увлечения</h2>
+
+    <!-- <ol></ol> - номерной спмсок ordered list. -->
     <ol>
         <li><em>Занятия физкультурой</em></li>
         <li><em>Внутренняя отделка помещений</em></li>
     </ol>
 
-    <hr noshade="1">
+        <hr noshade="1">
 
-    <h2>MDN developer</h2>
-    <a href="mdn.html"><em>Посмотреть базу знаний</em></a>
+    <h2>Опыт работы</h2>
+    <table border="10">
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1234567</td>
+                <td>123</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>123</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>123</td> 
+            </tr>
+        </tbody>
+
+        <!-- <tfoot></tfoot> - в футури складываем то что находится внизу таблицы, общий подсчёт и.т.д. -->
+        <tfoot></tfoot>
+         
+    </table>
+
+        <hr noshade="1">
+
+        <!-- <h2>MDN developer</h2> <h2>Любой текст</h2> - текг. бывают от 1 до 6. 
+        Зависит на размер текста в теге. -->
+
+        <h2>MDN developer</h2>
+
+        <!-- <a - якорь ссылка. href="mdn.html" - путь к созданному файлу>
+            <em> - курсив. Посмотреть базу знаний</em></a> -->
+        <a href="mdn.html"><em>Посмотреть базу знаний</em></a>
+
+        <!-- <br> Отступ абзаца невидимый -->
+        <br>
+        <br>
+        
+        <!-- <hr noshade="1" > hr - Линия отступа. noshade="1" - Тень линии -->
+        <hr noshade="1">
+    
+    <h2>Пример таблицы</h2>
+    <!-- <table border="2"> <table> </table> - Таблица. border="2" границы таблицы.
+     Содержит теги 
+        <tr> - Table row строка
+            <th></th> - Table header заголовок столбика-ячейки
+            <th></th>
+            <th></th>
+        </tr>
+        или
+        <tr>
+            <td></td> Столбик-Ячейка
+            <td></td>
+            <td></td>
+        </tr>
+    </table> -->
+
+    <table border="2">
+        <tr>
+            <!-- <tr>Строка таблицы Table row </tr> -->
+            <!-- <th>Заголовок ячейки Table header </th> -->
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <!-- <td>Ячейка в таблице</td>  -->
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+            <td>Ячейка 3</td>
+            <td>Ячейка 4</td>
+        </tr>
+        <tr>
+          <td>Ячейка 5</td> 
+          <td>Ячейка 6</td>
+          <td>Ячейка 7</td>
+          <td>Ячейка 8</td> 
+        </tr>
+        <tr>
+            <td>Ячейка 9</td>
+            <td>Ячейка 10</td>
+            <td>Ячейка 11</td>
+            <td>Ячейка 12</td>
+        </tr>
+    </table>
+    
+        <br>
+        <br>    
+        <hr noshade="1">
+
+    <h2>Связаться со мной</h2>
+    <form action="/">
+        <label for="name">Имя</label>
+        <input type="text" id="name" 
+        placeholder="Введите ваше имя...">
+
+        <br>
+        <br>
+
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname"
+        placeholder="Введите фамилию...">
+
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" 
+        placeholder="Введите email...">
+
+        <br>
+        <br>
+
+        <label for="password">Пароль</label>
+        <input type="password" id="password" 
+        placeholder="Введите пароль...">
+
+        <br>
+        <br>
+
+        <label for="color">Выберите цвет</label>
+        <input type="color" id="color">
+
+        <br>
+        <br>
+
+        <label for="textarea">Сообщение</label>
+        <br>
+        <textarea id="textarea" cols="60" rows="5"></textarea>
+
+        <br>
+        <br>
+        
+        <input type="submit" value="Отправить">
+
+    </form>
+
+    <hr color="green" noshade="1" size="10">
     
     
 
